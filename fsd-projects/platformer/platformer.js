@@ -33,11 +33,11 @@ $(function () {
     // TODO 2 - Create Platforms
 createPlatform(400,650,100,6)
 createPlatform(600,525,50,6)
-createPlatform(500,425,25,6)
+createPlatform(500,425,50,10)
 createPlatform(400,400,15,6)
 createPlatform(500,300,15,6)
 createPlatform(700,300,15,6)
-createPlatform(800,350,15,6)
+createPlatform(800,350,50,10)
 createPlatform(900,250,15,6)
 createPlatform(800,200,15,6)
 createPlatform(685,200,15,6)
@@ -45,7 +45,7 @@ createPlatform(600,250,15,6)
 createPlatform(300,250,15,6)
 createPlatform(300,525,15,6)
 createPlatform(200,450,15,6)
-createPlatform(200,325,15,6)
+createPlatform(200,325,50,10)
 createPlatform(200,200,15,6)
 createPlatform(450,200,15,6)
 createPlatform(250,100,200,6)
@@ -53,9 +53,9 @@ createPlatform(550,100,200,6)
 createPlatform()
 
     // TODO 3 - Create Collectables
-createCollectable(diamond,500,425)
-createCollectable(diamond,200,325)
-createCollectable(diamond,800,350)
+createCollectable("steve",500,400)
+createCollectable("diamond",200,300)
+createCollectable("max",800,315)
 
 
     
